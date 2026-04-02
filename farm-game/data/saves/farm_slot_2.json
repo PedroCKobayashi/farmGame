@@ -1,0 +1,81 @@
+{
+    "player": {
+        "name": "Jasmine",
+        "level": 1,
+        "money": 370,
+        "tool_level": 0
+    },
+    "fields": [
+        {
+            "id": 1,
+            "plant": {
+                "crop_key": "tomato",
+                "days_to_mature": 6,
+                "harvests_remaining": 5,
+                "days_to_regrow": 0,
+                "min_harvest_amount": 4,
+                "max_harvest_amount": 6,
+                "base_value": 3,
+                "season": "summer"
+            }
+        },
+        {
+            "id": 2,
+            "plant": {
+                "crop_key": "tomato",
+                "days_to_mature": 6,
+                "harvests_remaining": 5,
+                "days_to_regrow": 0,
+                "min_harvest_amount": 4,
+                "max_harvest_amount": 6,
+                "base_value": 3,
+                "season": "summer"
+            }
+        },
+        {
+            "id": 3,
+            "plant": {
+                "crop_key": "beet",
+                "days_to_mature": 5,
+                "harvests_remaining": 1,
+                "days_to_regrow": 0,
+                "min_harvest_amount": 8,
+                "max_harvest_amount": 12,
+                "base_value": 4,
+                "season": "summer"
+            }
+        },
+        {
+            "id": 4,
+            "plant": {
+                "crop_key": "beet",
+                "days_to_mature": 5,
+                "harvests_remaining": 1,
+                "days_to_regrow": 0,
+                "min_harvest_amount": 8,
+                "max_harvest_amount": 12,
+                "base_value": 4,
+                "season": "summer"
+            }
+        },
+        {
+            "id": 5,
+            "plant": {
+                "crop_key": "beet",
+                "days_to_mature": 5,
+                "harvests_remaining": 1,
+                "days_to_regrow": 0,
+                "min_harvest_amount": 8,
+                "max_harvest_amount": 12,
+                "base_value": 4,
+                "season": "summer"
+            }
+        },
+        {
+            "id": 6,
+            "plant": null
+        }
+    ],
+    "current_day": 0,
+    "current_season_index": 0
+}

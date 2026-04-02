@@ -1,0 +1,47 @@
+farm-game/
+├── README.md                 # Descrição do projeto
+├── requirements.txt          # Dependências
+├── .gitignore               # Arquivos ignorar
+├── main.py                  # Ponto de entrada
+│
+├── config/
+│   ├── __init__.py
+│   ├── constants.py         # ESTACOES, SEMANA, TOOLS, etc
+│   └── settings.py          # Configurações gerais
+│
+├── models/
+│   ├── __init__.py
+│   ├── plant.py             # Classe Plant
+│   ├── field.py             # Classe Field
+│   ├── farm.py              # Classe Farm
+│   └── player.py            # Classe Player (level, money, tools)
+│
+├── core/
+│   ├── __init__.py
+│   ├── game_engine.py       # Lógica principal (passar_dia, etc)
+│   ├── season_manager.py    # Gerenciar estações
+│   └── crop_manager.py      # Gerenciar plantações
+│
+├── services/
+│   ├── __init__.py
+│   ├── save_manager.py      # Carregar/salvar JSON
+│   ├── market.py            # Lógica de venda
+│   └── inventory.py         # Controle de inventário
+│
+├── ui/
+│   ├── __init__.py
+│   ├── display.py           # Exibir status
+│   ├── menu.py              # Menu principal
+│   └── utils.py             # clear_screen, etc
+│
+├── data/
+│   ├── crops.json           # Catálogo de plantas
+│   ├── saves/
+│   │   ├── farm_slot_0.json
+│   │   ├── farm_slot_1.json
+│   │   └── ...
+│
+└── tests/                   # Testes unitários
+    ├── test_plant.py
+    ├── test_farm.py
+    └── test_market.py
